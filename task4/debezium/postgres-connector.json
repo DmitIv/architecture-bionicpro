@@ -1,0 +1,14 @@
+{
+  "name": "crm-postgres-connector",
+  "config": {
+    "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+    "database.hostname": "postgres",
+    "database.port": "5432",
+    "database.user": "bionicpro",
+    "database.password": "secure_password",
+    "database.dbname": "bionicpro_users",
+    "database.server.name": "crm",
+    "table.include.list": "public.customers,public.orders",
+    "plugin.name": "pgoutput"
+  }
+}
