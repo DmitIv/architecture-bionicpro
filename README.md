@@ -1,1 +1,4 @@
-
+- [Task1](./task1/architecture-c4-diagram.png)
+- [Task2](./task2/)
+- [Task3](./task3/)
+- [Task4](./task4/)
