@@ -5,7 +5,7 @@ const ReportPage: React.FC = () => {
   const { keycloak, initialized } = useKeycloak();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [reports, setReports] = useState<any[]>(null);
+  const [reports, setReports] = useState<any[]>([]);
 
   const downloadReport = async () => {
     if (!keycloak?.token) {
